@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Strength Checker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Password Strength Checker</h1>
+    <div class="input-section">
+      <input type="password" id="password" placeholder="Enter password" />
+      <button class="icon-btn" onclick="toggleVisibility()">
+        <span id="eye-icon">👁️</span>
+      </button>
+    </div>
+
+    <div id="strength-bar"></div>
+    <div id="strength-text"></div>
+    <div id="suggestions"></div>
+
+    <hr />
+
+    <h2>Generate a Strong Password</h2>
+    <button class="generate-btn" onclick="generatePassword()">🔐 Generate</button>
+
+    <div class="generated-password-wrapper" style="margin-top: 1rem;">
+      <input type="text" id="generated-password" readonly />
+      <button onclick="copyPassword()" class="icon-btn">📋</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
