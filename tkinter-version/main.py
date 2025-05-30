@@ -250,7 +250,7 @@ def create_gui():
         return None
 
     root = ttk.Window(themename="darkly")
-    root.title(" Password Strength Checker")
+    root.title("ArcCheck")
     root.geometry("300x700")
     root.resizable(True, True)
     root.minsize(400, 500)

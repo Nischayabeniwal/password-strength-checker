@@ -1,9 +1,10 @@
-# 🔐 Password Strength Checker
+# 🔐 ArcCheck: Password Strength Checker
 
 
 This project provides two versions of a password strength checker:
 
 * 🐍 **Tkinter-based GUI Application** (written in Python)
+* 💾 **Windows Executable (.exe)** version of the GUI app
 * 🌐 **Web-based Interface** (built using HTML, CSS, and JavaScript)
 
 It helps users test the strength of their passwords based on criteria like length, use of uppercase/lowercase characters, digits, and special symbols.
@@ -23,12 +24,14 @@ It helps users test the strength of their passwords based on criteria like lengt
 ```
 password-strength-checker/
 ├── tkinter-version/
-│   ├── main.py
-│   └── requirements.txt
+│ ├── main.py
+│ ├── requirements.txt
+│ └── dist/
+│     └── ArcCheck.exe
 ├── web-version/
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
+│ ├── index.html
+│ ├── script.js
+│ └── style.css
 └── LICENSE
 ```
 
@@ -58,6 +61,15 @@ Or view the live site here:
 [![View Website](https://img.shields.io/badge/View-Website-brightgreen)](https://nischayabeniwal.github.io/password-strength-checker/web-version/)
 
 ---
+
+## 💾 Run the Windows Executable (.exe)
+You can also run the app directly without installing Python:
+
+Navigate to tkinter-version/dist/
+
+Double-click ArcCheck.exe to launch the app
+
+💡 No installation needed — works on any Windows machine!
 
 ## 🛠️ Technologies Used
 
