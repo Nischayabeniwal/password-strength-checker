@@ -1,6 +1,5 @@
 # 🔐 Password Strength Checker
 
-[![View Website](https://img.shields.io/badge/View-Website-brightgreen)](https://nischayabeniwal.github.io/password-strength-checker/web-version/)
 
 This project provides two versions of a password strength checker:
 
