@@ -51,8 +51,8 @@ password-strength-checker/
 
 ```bash
 git clone https://github.com/nischayabeniwal/password-strength-checker.git
-cd tkinter-version
-pip install -r requirements.txt
+cd password-strength-checker
+pip install -r tkinter-version\requirements.txt
 python main.py
 ```
 
@@ -60,7 +60,7 @@ python main.py
 
 ## 🌐 Run the Web Version
 
-Just open `web-version/index.html` in your browser.
+Just open `web-version/index.html` in your browser after cloning this repo to your system.
 
 Or view the live site here:
 [![View Website](https://img.shields.io/badge/View-Website-brightgreen)](https://nischayabeniwal.github.io/password-strength-checker/web-version/)
