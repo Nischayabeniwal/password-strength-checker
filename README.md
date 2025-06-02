@@ -45,7 +45,12 @@ password-strength-checker/
 
 ### ▶️ Run Instructions:
 
+#### Step 1: Open your terminal or command prompt.
+
+#### Step 2: Run the following command:
+
 ```bash
+git clone https://github.com/nischayabeniwal/password-strength-checker.git
 cd tkinter-version
 pip install -r requirements.txt
 python main.py
@@ -76,7 +81,7 @@ Double-click ArcCheck.exe to launch the app
 * Python 3 (Tkinter GUI)
 * HTML5
 * CSS3
-* JavaScript (Vanilla JS)
+* JavaScript
 
 ---
 
